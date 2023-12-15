@@ -5,7 +5,9 @@
   "MapFilter": {
     "IsBlank": false,
     "HasParcourEnd": true
-    }
+    ],
+  "Parameters": {
+    "Bool": [
     {
         "Name": "Damage",
         "DisplayName": "GmParams/Damage"
