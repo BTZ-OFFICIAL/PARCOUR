@@ -5,38 +5,3 @@
   "MapFilter": {
     "IsBlank": false,
     "HasParcourEnd": true
-  },
-  "MapLists": [
-    {
-      "MapListId": 3688,
-      "Name": "PARCOUR 2"
-    }
-  ],
-  "Parameters": {
-    "Bool": [
-      {
-      "Name": "PartialDesruction",
-      "DisplayName": "ПАРКУР 2",
-      "Default": true
-      },
-      {
-"Name": "Build",
-        "DisplayName": "синие",
-        "Default": true
-      },
-      {
-        "Name": "Melee",
-        "DisplayName": "красные",
-        "Default": true
-      },
-      {
-        "Name": "Main",
-        "DisplayName": "режим палета"
-      },
-      {
-        "Name": "Secondary",
-        "DisplayName": "у синих пустой инвентарь"
-      }
-    ]
-  }
-}
