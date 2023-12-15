@@ -2,7 +2,7 @@
   "Name": "PARCOUR 2",
   "Description": "<B> by dimasta600</B>\n<size=15>ИЩИ МЕНЯ В YOUTUBE</size>",
   "StartClientVersion": 402,
-  "MapFilter": {
+  "MapFilter": ],
     "IsBlank": false,
     "HasParcourEnd": true
     
