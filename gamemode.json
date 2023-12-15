@@ -1,14 +1,16 @@
 {
   "Name": "PARCOUR 2",
-  "Description": "<B> by dimasta600</B>\n<size=15>ИЩИ МЕНЯ В YOUTUBE</size>",
-  "StartClientVersion": 402,
-  "MapFilter": ],
-    "IsBlank": false,
-    "HasParcourEnd": true
-    
+  "Description": "by dimasta600",
+  "StartClientVersion": 3688,
+  "MapLists": [
+    {
+      "MapListId": 12819,
+      "Name": "PARCOUR 2"
+    }
+  ],
   "Parameters": {
     "Bool": [
-    {
+      {
         "Name": "Damage",
         "DisplayName": "GmParams/Damage"
       },
