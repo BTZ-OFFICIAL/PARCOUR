@@ -5,3 +5,9 @@
   "MapFilter": {
     "IsBlank": false,
     "HasParcourEnd": true
+
+    Main.Value = false;
+	  Secondary.Value = false;
+	  Melee.Value = false;
+    Explosive.Value = false;
+	  Build.Value = false;
