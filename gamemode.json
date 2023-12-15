@@ -15,9 +15,9 @@
   "Parameters": {
     "Bool": [
       {
-        "Name":
-        "DisplayName": "GmParams/PartialDesruction",
-        "Default": true
+      "Name": "PartialDesruction",
+      "DisplayName": "ПАРКУР 2",
+      "Default": true
       },
       {
 "Name": "Build",
