@@ -1,3 +1,25 @@
+{
+  "Name": "PARCOUR 2",
+  "Description": "<B> by dimasta600</B>\n<size=15>ИЩИ МЕНЯ В YOUTUBE</size>",
+  "StartClientVersion": 402,
+  "MapFilter": {
+    "IsBlank": false,
+    "HasParcourEnd": true
+  },
+  "MapLists": [
+    {
+      "MapListId": 9407,
+      "Name": "PARCOUR 2"
+    }
+  ],
+  "Parameters": {
+    "Bool": [
+      {
+        "Name":
+        "DisplayName": "GmParams/PartialDesruction",
+        "Default": true
+      },
+      {
 "Name": "Build",
         "DisplayName": "синие",
         "Default": true
