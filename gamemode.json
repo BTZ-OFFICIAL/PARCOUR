@@ -5,7 +5,7 @@
   "MapFilter": {
     "IsBlank": false,
     "HasParcourEnd": true
-    ],
+    
   "Parameters": {
     "Bool": [
     {
