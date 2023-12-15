@@ -131,13 +131,4 @@ lolTrigger.Enable = true;
  }   
 });   
 // ????? ?? ????? ? ???????   
-Teams.OnPlayerChangeTeam.Add(function(player){ player.Spawns.Spawn()});   
-  
-  
-//    
-var des = "PARCOUR 2";    
-Teams.Get("Red").Properties.Get("Des").Value = des;   
-Ui.GetContext().TeamProp2.Value = { Team: "Blue", Prop: "Des" };    
-Teams.Get("Blue").Properties.Get("Des").Value = des;   
-Ui.GetContext().TeamProp1.Value = { Team: "Red", Prop: "Des" };
-	
+Teams.OnPlayerChangeTeam.Add(function(player){ player.Spawns.Spawn()});
