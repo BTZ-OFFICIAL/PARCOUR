@@ -4,8 +4,8 @@
   "StartClientVersion": 597,
   "MapLists": [
     {
-      "MapListId": 12819,
-      "Name": "PARCOUR 2"
+      "MapListId": 324,
+      "Name": "PARCOUR"
     }
   ],
   "Parameters": {
@@ -13,44 +13,54 @@
       {
         "Name": "Damage",
         "DisplayName": "GmParams/Damage"
+         "Order": 1
       },
       {
         "Name": "PartialDesruction",
         "DisplayName": "GmParams/PartialDesruction"
+         "Order": 2
       },
       {
         "Name": "LoosenBlocks",
         "DisplayName": "GmParams/LoosenBlocks"
+        "Order": 3
       },
       {
         "Name": "RedTeam",
         "DisplayName": "Teams/Red",
         "Default": true
+        "Order": 4
       },
       {
         "Name": "BlueTeam",
         "DisplayName": "Teams/Blue",
         "Default": true
+        "Order": 5
       },
       {
         "Name": "BlueHasNothing",
         "DisplayName": "GmParams/BlueHasNothing"
+        "Order": 6
       },
       {
         "Name": "FloodFill",
         "DisplayName": "GmParams/FloodFill"
+        "Order": 7
       },
       {
         "Name": "FillQuad",
         "DisplayName": "GmParams/FillQuad"
+        "Order": 8
       },
       {
         "Name": "RemoveQuad",
         "DisplayName": "GmParams/RemoveQuad"
+        "Order": 9
       },
       {
         "Name": "Fly",
         "DisplayName": "GmParams/Fly",
+        "Order": 10
         "Default": true
       }
     ]
