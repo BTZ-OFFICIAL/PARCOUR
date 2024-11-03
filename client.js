@@ -18,12 +18,12 @@ Build.GetContext().SetSkyEnable.Value = true;
 Build.GetContext().GenMapEnable.Value = true;
 Build.GetContext().ChangeCameraPointsEnable.Value = true;
 Build.GetContext().QuadChangeEnable.Value = true;
-Build.GetContext().BuildModeEnable.Value = true;
+Build.GetContext().BuildModeEnable.Value = false;
 Build.GetContext().CollapseChangeEnable.Value = true;
 Build.GetContext().RenameMapEnable.Value = true;
 Build.GetContext().ChangeMapAuthorsEnable.Value = true;
 Build.GetContext().LoadMapEnable.Value = true;
-Build.GetContext().ChangeSpawnsEnable.Value = true;
+Build.GetContext().ChangeSpawnsEnable.Value = false;
 
 // ��������� ����
 Properties.GetContext().GameModeName.Value = "GameModes/Peace";
@@ -41,9 +41,9 @@ if (blue || !red && !blue) {
 		var inventory = Inventory.GetContext();
 		Teams.Get("Blue").Inventory.Main.Value = false;
 		Teams.Get("Blue").Inventory.Secondary.Value = false;
-		Teams.Get("Blue").Inventory.Melee.Value = true;
+		Teams.Get("Blue").Inventory.Melee.Value = false;
 		Teams.Get("Blue").Inventory.Explosive.Value = false;
-		Teams.Get("Blue").Inventory.Build.Value = true;
+		Teams.Get("Blue").Inventory.Build.Value = false;
 	}
 }
 
@@ -57,7 +57,7 @@ Ui.getContext().Hint.Value = "Hint/BuildBase";
 
 // ������������ ���������
 var inventory = Inventory.GetContext();
-inventory.Main.Value = false;
+inventory.Main.Value = true;
 inventory.Secondary.Value = false;
 inventory.Melee.Value = false;
 inventory.Explosive.Value = false;
@@ -70,13 +70,13 @@ Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
 // ������������ �����
 Spawns.GetContext().RespawnTime.Value = 0;
 
-Players.Get("E264DB3C324DED49").build.BuildRangeEnable.Value = true; 
-Players.Get("E264DB3C324DED49"). Damage.DamageIn.Value = false; 
+Players.Get("7CE37DE570BF7B0C").build.BuildRangeEnable.Value = true; 
+Players.Get("7CE37DE570BF7B0C"). Damage.DamageIn.Value = false; 
 // ????????? ???? ? ??????? ?? ???????   
 Teams.OnRequestJoinTeam.Add(function(player,team){team.Add(player);   
 Ui.GetContext().Hint.Value = player +"    КУ БРО";   
   
-if (player.id  == "E264DB3C324DED49"){  
+if (player.id  == "7CE37DE570BF7B0C"){  
 player.inventory.MainInfinity.Value = true;   
 player.inventory.Main.Value = true;   
 player.inventory.Melee.Value = true;   
